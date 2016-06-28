@@ -1,15 +1,9 @@
 *&---------------------------------------------------------------------*
-*& Report  ZCHAKRA_AGING
-*&
-*&---------------------------------------------------------------------*
-*& TODO:
-*& 1. Ganti operasi join dengan FAE
-*& 2. UNION BSID dan BSAD
-*& 3. Hitung Aging Due Date
+*& Report  ZAGING_REPORT
 *&
 *&---------------------------------------------------------------------*
 
-REPORT ZCHAKRA_AGING.
+REPORT ZAGING_REPORT.
 
 TABLES: bkpf,bseg,vbrk,tvkot,tspat,kna1,t052.
 
